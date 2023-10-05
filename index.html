@@ -20,12 +20,10 @@
         <input type="text" name="link" />
         <button type="submit">Generate QR <span>&#10230;</span></button>
     </form>
-    {% if data %}
     <div class="generated">
         <img src="{{data}}" alt="" />
         <p>Here is the QR code for the link provided 🚀</p>
     </div>
-    {% endif %}
 </body>
 </html>
 
